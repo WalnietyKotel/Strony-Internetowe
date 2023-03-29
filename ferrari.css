@@ -1,0 +1,68 @@
+*body{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CC4D4D;
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    background: #953333;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    display: flex;
+    flex-basis: 80%;
+    flex-basis: 90%;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    height: 6rem;
+    align-items: center;
+    font-size: 50px;
+    color: #CC4D4D;
+}
+h2{
+    display: flex;
+    flex-basis: 80%;
+    border-radius: 15px;
+     background-color: #7987a6;
+}
+footer{
+    display: flex;
+    flex-basis: 100%;
+    background: #400303;
+    justify-content: center;
+    font-size: 35px;
+    color: #D9D9D9;
+}
+.art1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background-color: #D9D9D9;
+}
+.art2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+}
+.ferrari{
+    border-radius: 5%;
+}
+.art_ferrari{
+    display: flex;
+    flex-basis: 50%;
+}
+.art3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+
+}
