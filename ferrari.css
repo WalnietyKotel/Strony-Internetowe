@@ -1,5 +1,7 @@
-*body{
-    font-size: 25px;
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 .container{
     display: flex;
@@ -15,6 +17,10 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    margin: 1rem;
+}
+article{
+    border-radius: 15px;
 }
 h1{
     display: flex;
@@ -30,9 +36,11 @@ h1{
 }
 h2{
     display: flex;
-    flex-basis: 80%;
-    border-radius: 15px;
-     background-color: #7987a6;
+    flex-basis: 100%;
+    border-radius: 5px;
+    background-color: #7987a6;
+    justify-content: center;
+    margin: 0;
 }
 footer{
     display: flex;
@@ -45,24 +53,104 @@ footer{
 .art1{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 50%;
+    flex-basis: 32%;
     background-color: #D9D9D9;
+    margin: 1rem;
+    height: auto;
 }
 .art2{
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 33%;
     background-color: #D9D9D9;
+    height: 22rem;
 }
 .ferrari{
+    display: flex;
     border-radius: 5%;
+    margin: 1rem;
+    width: 27rem;
+    height: 19rem;
 }
 .art_ferrari{
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 33%;
+    justify-content: center;
 }
 .art3{
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 54%;
     background-color: #D9D9D9;
-
+    width: 10rem;
+    height: 22rem;
+    margin: 1rem;
+}
+.bolid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 36%;
+    width: 1rem;
+    height: 21rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+.leclerc{
+    display: flex;
+    width: 20rem;
+    border-radius: 15px;
+    align-items: center;
+    margin: 1rem;
+}
+.kierowcy{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+}
+.art5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 48%;
+    justify-content: center;
+}
+p{
+    font-size: 1.3vw;
+    margin: 0.5rem;
+}
+.sainz{
+    display: flex;
+    width: 20rem;
+    border-radius: 15px;
+    margin: 1rem;
+}
+.art6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.pArt5{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+    color: #D9D9D9;
+}
+.pArt6{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+    color: #D9D9D9;
+}
+.cus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    background-color: #7987a6;
+    justify-content: center;
 }
