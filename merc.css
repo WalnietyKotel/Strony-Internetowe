@@ -1,24 +1,21 @@
 body{
-    /* padding: 0; */
+    padding: 0;
     margin: 0;
     border: 0;
 }
 .container{
     display: flex;
     flex-wrap: wrap;
-    background-color: #CC4D4D;
+    background-color: #32655C;
+}
+a{
+    font-size: 1.3vw;
 }
 header{
     display: flex;
     flex-basis: 100%;
-    background: #953333;
+    background: #339595;
     justify-content: center;
-}
-main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 90%;
-    padding: 1rem ;
 }
 aside{
     display: flex;
@@ -26,18 +23,21 @@ aside{
     background: #710E0E;
     flex-direction: column;
     padding: 1rem;
+    background: #339595;
 }
-
-.p_h{
+main{
     display: flex;
-    font-size: 1.3vw;
-    background: #710E0E;
     flex-wrap: wrap;
+    flex-basis: 90%;
+    padding: 1rem ;
+}
+footer{
+    display: flex;
+    flex-basis: 100%;
+    background: #033840;
     justify-content: center;
-    align-items: center;
-    justify-content: center;
+    font-size: 35px;
     color: #D9D9D9;
-    padding-bottom: 1rem;
 }
 article{
     border-radius: 15px;
@@ -51,25 +51,28 @@ h1{
     height: 6rem;
     align-items: center;
     font-size: 50px;
-    color: #CC4D4D;
+    color: #0A405F;
 }
 h2{
     display: flex;
     flex-basis: 100%;
     border-radius: 5px;
-    background-color: #953333;
+    background-color: #339595;
     color: #D9D9D9;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin: 0;
 }
-footer{
+.p_h{
     display: flex;
-    flex-basis: 100%;
-    background: #400303;
+    font-size: 1.3vw;
+    background: #339595;
+    flex-wrap: wrap;
     justify-content: center;
-    font-size: 35px;
+    align-items: center;
+    justify-content: center;
     color: #D9D9D9;
+    padding-bottom: 1rem;
 }
 .art1{
     display: flex;
@@ -84,8 +87,7 @@ footer{
     flex-wrap: wrap;
     flex-basis: 33%;
     background-color: #D9D9D9;
-    height: 22rem;
-    align-self: center;
+    height: 27rem;
 }
 .art3{
     display: flex;
@@ -96,19 +98,39 @@ footer{
     height: 22rem;
     margin: 1rem;
 }
-.ferrari{
+.art4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 48%;
+    justify-content: center;
+}
+.art5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.zdjecia{
+    display: flex;
+    width: 6rem;
+    scale: 100%;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.logo{
     display: flex;
     border-radius: 5%;
     margin: 1rem;
-    width: 30rem;
-    height: 24rem;
+    width: 27rem;
+    height: 25rem;
 }
-.art_ferrari{
+.art_logo{
     display: flex;
     flex-basis: 33%;
     justify-content: center;
 }
-
 .bolid{
     display: flex;
     flex-wrap: wrap;
@@ -117,8 +139,9 @@ footer{
     height: 21rem;
     margin: 1rem;
     border-radius: 15px;
+    align-self: center;
 }
-.leclerc{
+.Kierowca1{
     display: flex;
     width: 20rem;
     border-radius: 15px;
@@ -134,36 +157,17 @@ footer{
     gap: 2rem;
     justify-content: center;
 }
-.art5{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #695F5F;
-    flex-basis: 48%;
-    justify-content: center;
-}
+
+
 p{
     font-size: 1.3vw;
     margin: 0.5rem;
 }
-.sainz{
+.Kierowca2{
     display: flex;
     width: 20rem;
     border-radius: 15px;
     margin: 1rem;
-}
-.art6{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #695F5F;
-    flex-basis: 50%;
-    justify-content: center;
-}
-.zdjecia{
-    display: flex;
-    width: 6rem;
-    scale: 100%;
-    flex-wrap: wrap;
-    gap: 100px;
 }
 .pArt5{
     display: flex;
@@ -181,11 +185,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
-    background: #710E0E;
+    background: #339595;
     justify-content: center;
-}
-a{
-    font-size: 1.3vw;
 }
 .lefty{
     font-size: 2vw;

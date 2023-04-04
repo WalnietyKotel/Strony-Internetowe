@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+  </head>
+  <body>
+    <header>
+        <article class="head">
+            Kontakt ze mną
+        </article>
+    </header>
+    <main>
+    <fieldset>
+      <form>
+        <label for="nazwa">Imię:*</label>
+        <input type="text" name="user" placeholder="Imię" id="imię" required/> Nazwisko*
+        <input type="text" name="naz" id="naz" placeholder="Nazwisko" required/>
+
+
+        <label for="miasto">Rodzaj wiadomości:*</label>
+        <input type="radio" name="wiad" id="wiadomości" /> <label for="gliw">Wiadomości</label>
+        <input type="radio" name="mai" id="mail" checked /> Email
+        <input type="radio" name="mess" id="messenger" /> Messenger
+
+        <textarea
+          placeholder="Wpisz treść:"
+          cols="25"
+          rows="8"
+          
+        ></textarea>
+        <input type="submit" value="Wyślij" name="wyślij" />
+        <input type="reset" value="Czyść" name="wyczyść" /><br /><br />
+    </fieldset>
+    <br />
+    
+</form>
+</main>
+    <footer>
+      <p class="lefty" href="Main.html" ><----- Powrót</p>
+      <p class="center">&copy; Szymon Rzeszowski 1p</p>
+    </footer>
+  </body>
+</html>
