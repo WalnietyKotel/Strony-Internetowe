@@ -1,0 +1,235 @@
+body{
+    /* padding: 0; */
+    margin: 0;
+    border: 0;
+}
+*{
+    box-sizing: border-box;
+    font-size: 1.4vw;
+}
+img{
+    border-radius: 15px;
+}
+article{
+    background-color: #f0c1c1;
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    background: #953333;
+    justify-content: center;
+    height: 7rem;
+}
+h1{
+    display: flex;
+    flex-basis: 99%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin: 1rem;;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+h2{
+    display: flex;
+    flex-basis: 100%;
+    height: 40px;
+    background-color: #953333;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    color: #D9D9D9;
+}
+.p_h{
+    display: flex;
+    font-size: 1.3vw;
+    background: #953333;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9;
+    padding-bottom: 1rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #CC4D4D;
+    flex-basis: 90%;
+    /* padding: 1rem ; */
+}
+aside{
+    display: flex;
+    flex-basis: 5%;
+    background: #953333;
+    flex-direction: column;
+    padding: 1rem;
+}
+footer{
+    display: flex;
+    flex-basis: 100%;
+    background: #400303;
+    justify-content: center;
+    font-size: 35px;
+    color: #D9D9D9;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CC4D4D;
+}
+.art1{
+    background-color: #f0c1c1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    justify-content: flex-start;
+    border-radius: 15px;
+    height: 10rem;
+    align-self:center ;
+}
+.logoF1{
+    display: flex;
+    flex-basis: 38%;
+    width: 40%;
+    height: 23%;
+    align-self: center;
+}
+
+.art3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 37%;
+    background-color: #f0c1c1;
+    border-radius: 15px;
+    height: 18rem;
+    align-self: center;
+}
+.favTrasy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    background-color: #f0c1c1;
+    border-radius: 25px;
+    height: 22rem;
+    align-self: center;
+}
+.art4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 98%;
+    background-color: #f0c1c1;
+    border-radius: 15px;
+    height: 14rem;
+}
+.zdjecia{
+    display: flex;
+    scale: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    background-color: #f0c1c1;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+
+.spa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 14rem;
+    height: 8rem; 
+    padding: 0.5rem;
+}
+spa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    height: 10rem;
+    background-color: #f0c1c1;
+    justify-content: center;
+}
+.p_spa{
+    border: 4px solid black;
+}
+.p_monaco{
+    border: 5px solid black;
+}
+monaco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background-color: #f0c1c1;
+    justify-content: center;
+}
+.monaco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    width: 14rem;
+    height: 8rem;
+}
+.trasy{
+    display: flex;
+    background-color: #f0c1c1;
+    flex-wrap: wrap;
+    height: 18rem;
+    margin: 1rem;
+}
+.winton{
+    display: flex;
+    flex-basis: 1%;
+    width: 10rem;
+    height: 5.5rem;
+    margin: 1rem;
+}
+
+table{
+    background-color: #332727;
+    color: #D9D9D9;
+    border-radius: 15px;
+    height: 12rem;
+}
+.tab1{
+    display: flex;
+    flex-basis: 48.6%;
+    justify-content: center;
+    margin: 4px;
+}
+.tab2{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    margin: 4px;
+}
+.center{
+    font-size: 2vw;
+    display: flex;
+    flex-basis: 90%;
+    justify-content: center;
+}
+.righty{
+    font-size: 2vw;
+    display: flex;
+    flex-basis: 10%;
+    justify-content: left;
+    align-items: left;
+    padding-left: 1rem;
+}
+a:hover{
+    scale: 110%;
+}
+#fer{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+footer > a{
+    text-decoration: none;
+    color: #D9D9D9;
+}

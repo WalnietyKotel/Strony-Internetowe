@@ -209,3 +209,10 @@ a{
 .zdj{
     border-radius: 15px;
 }
+a:hover{
+    scale: 110%;
+}
+footer > a{
+    text-decoration: none;
+    color: #D9D9D9;
+}

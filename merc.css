@@ -28,7 +28,7 @@ aside{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 90%;
+    flex-basis: 89%;
     padding: 1rem ;
 }
 footer{
@@ -44,7 +44,7 @@ article{
 }
 h1{
     display: flex;
-    flex-basis: 98%;
+    flex-basis: 99%;
     justify-content: center;
     background-color: #D9D9D9;
     border-radius: 15px;
@@ -77,7 +77,7 @@ h2{
 .art1{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 32%;
+    flex-basis: 30%;
     background-color: #D9D9D9;
     margin: 1rem;
     height: auto;
@@ -92,7 +92,7 @@ h2{
 .art3{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 56%;
+    flex-basis: 55%;
     background-color: #D9D9D9;
     width: 10rem;
     height: 22rem;
@@ -102,14 +102,14 @@ h2{
     display: flex;
     flex-wrap: wrap;
     background-color: #695F5F;
-    flex-basis: 48%;
+    flex-basis: 46%;
     justify-content: center;
 }
 .art5{
     display: flex;
     flex-wrap: wrap;
     background-color: #695F5F;
-    flex-basis: 50%;
+    flex-basis: 46%;
     justify-content: center;
 }
 .zdjecia{
@@ -191,7 +191,7 @@ p{
 .lefty{
     font-size: 2vw;
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 20%;
     justify-content: left;
     align-items: left;
 }
@@ -204,9 +204,20 @@ p{
 .center{
     font-size: 2vw;
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 70%;
     justify-content: center;
+    padding-left: 15rem;
 }
 .zdj{
     border-radius: 15px;
+}
+a:hover{
+    scale: 110%;
+}
+#fer{
+    width: 6.2rem;
+}
+footer > a{
+    text-decoration: none;
+    color: #D9D9D9;
 }

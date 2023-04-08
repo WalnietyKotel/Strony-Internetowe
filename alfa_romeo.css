@@ -27,7 +27,7 @@ aside{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 90%;
+    flex-basis: 89%;
     padding: 1rem ;
 }
 footer{
@@ -209,4 +209,14 @@ p{
 }
 .zdj{
     border-radius: 15px;
+}
+a:hover{
+    scale: 110%;
+}
+#fer{
+    width: 6.2rem;
+}
+footer > a{
+    text-decoration: none;
+    color: #D9D9D9;
 }
