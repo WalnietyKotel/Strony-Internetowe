@@ -1,47 +1,35 @@
 <!DOCTYPE html>
-<html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="kontakt.css">
-  </head>
-  <body>
+</head>
+<body>
+    <style>
+        @font-face { font-family: Formula1; src: url('Formula1-Bold_web_0.ttf'); } 
+        h1 {
+        font-family: Formula1
+        }   
+    </style>
+
     <header>
-        <article class="head">
-            Kontakt ze mną
-        </article>
+        <h1>Kontakt ze mną</h1>
     </header>
+
     <main>
-    <fieldset>
-      <form>
-        <label for="nazwa">Imię:*</label>
-        <input type="text" name="user" placeholder="Imię" id="imię" required/> Nazwisko*
-        <input type="text" name="naz" id="naz" placeholder="Nazwisko" required/>
-
-
-        <label for="miasto">Rodzaj wiadomości:*</label>
-        <input type="radio" name="wiad" id="wiadomości" /> <label for="gliw">Wiadomości</label>
-        <input type="radio" name="mai" id="mail" checked /> Email
-        <input type="radio" name="mess" id="messenger" /> Messenger
-
-        <textarea
-          placeholder="Wpisz treść:"
-          cols="25"
-          rows="8"
-          
-        ></textarea>
-        <input type="submit" value="Wyślij" name="wyślij" />
-        <input type="reset" value="Czyść" name="wyczyść" /><br /><br />
-    </fieldset>
-    <br />
-    
-</form>
-</main>
+        <input type="text" name="imi" placeholder="Imie" required>
+        <input type="text" name="naz" placeholder="Nazwisko" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="tel" placeholder="nr Telefonu" required>
+        <textarea name="wiadomość" cols="60" rows="5" placeholder="Wpisz treść"></textarea>
+        <button type="submit">Wyślij</button>
+    </main>
     <footer>
-      <a class="lefty" href="main.html" ><----- Powrót</a>
-      <a class="center">&copy; Szymon Rzeszowski 1p</a>
+        <a class="lefty" href="main.html" >Powrót</a>
+        <a class="center">&copy; Szymon Rzeszowski 1p</a>
     </footer>
-  </body>
+</body>
 </html>
